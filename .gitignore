@@ -1,42 +1,20 @@
-# --- Pliki systemowe i IDE ---
-.DS_Store
-Thumbs.db
-.vscode/
+# --- IntelliJ IDEA ---
 .idea/
-*.swp
+*.iws
+*.iml
+*.ipr
+out/
 
-# --- Zależności (dependencies) ---
+# Ignoruj specyficzne pliki konfiguracyjne użytkownika
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/dataSources.local.xml
+
+# --- Ogólne ---
+.DS_Store
+.attach_pid*
 node_modules/
-/vendor/
-/packages/
-
-# --- Zmienne środowiskowe i pliki tajne ---
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-*.pem
-
-# --- Logi i pliki tymczasowe ---
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-tmp/
-temp/
-
-# --- Wyniki budowania aplikacji (builds) ---
-dist/
+target/
 build/
-/bin/
-/obj/
-*.exe
-*.dll
-*.so
-*.dylib
-
-# --- Cache ---
-.cache/
-.parcel-cache/
-.eslintcache
