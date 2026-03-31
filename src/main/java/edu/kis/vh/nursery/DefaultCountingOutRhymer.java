@@ -22,7 +22,7 @@ public class DefaultCountingOutRhymer {
     }
 
     /**
-     * Sprawdza, czy wyliczanka jest pusta.
+     * Sprawdza, czy wyliczanka jest pusta..
      * * @return true jeśli wyliczanka jest pusta, w przeciwnym razie false
      */
     public boolean callCheck() {
