@@ -1,5 +1,5 @@
 package edu.kis.vh.nursery;
-
+Wydzielenie metody testRhymers w klasie RhymersDemo
 import org.junit.Assert;
 import org.junit.Test;
 
